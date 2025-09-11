@@ -14,7 +14,7 @@ source /root/miniconda3/bin/activate myenv
 python -u train.py \
   model=mistra \
   model.name_or_path=models/模型路径 \
-  datasets=[ultra-feedback] \
+  datasets=[datasets] \  
   loss=sft \
   gradient_accumulation_steps=1 \
   batch_size=1 \

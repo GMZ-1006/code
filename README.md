@@ -8,8 +8,8 @@ git clone https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1
 # 生成权重
 export MODEL_NAME_1="output/模型1名称" 
 
-export MODEL_NAME_2="output/模型2名称" 
+export MODEL_NAME_2="output/模型2名称"   
 
-bash scripts/GranularTokenScoring.sh    
+bash script/GranularTokenScoring.sh          
 # 使用生成权重进行训练
 ./run_token.sh  
